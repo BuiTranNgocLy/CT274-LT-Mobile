@@ -29,7 +29,7 @@
 ## 5. Phát hiện Gesture
 - Android cung cấp class `GestureDetector` để detect một số hành động thông thường, bao gồm `onDown(), onLongPress(), onFling()`, có thể kết hợp với `onTouchEvent`
 ### a. Deteching tất cả những cử chỉ được hỗ trợ
-- Tạo 1 đối tượng `GestureCompat` -> đầu tiên tại `View` haowjc `Activity` bạn phải `implement GestureDetector.OnGestureListener` in tèace
+- Tạo 1 đối tượng `GestureCompat` -> đầu tiên tại `View` hoặc `Activity` bạn phải `implement GestureDetector.OnGestureListener` interface
 - `GestureDetecto.OnGestureListener` thông báo cho user khi `Touch event` xảy ra
 - Để nhận các sự kiện -> `Override` hàm `onTouchEvent()` lên các `View` hoặc `Activity`
 
